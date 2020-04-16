@@ -1,5 +1,9 @@
 package com.jegan;
 
+/** Strategy Pattern
+ * In Strategy pattern, a class behavior or its algorithm can be changed at run time.
+ * This type of design pattern comes under behavior pattern.
+ **/
 public abstract class Duck {
     FlyBehaviour flyBehaviour;
     QuackBehaviour quackBehaviour;
